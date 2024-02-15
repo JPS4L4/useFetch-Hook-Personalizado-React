@@ -7,7 +7,7 @@ const App = () => {
   console.log("App");
 
   const { data, loading, error } = useFetch(
-    "https://jsonplaceholder.typicode.com/userss"
+    "https://jsonplaceholder.typicode.com/users"
   );
 
   if (loading) {
